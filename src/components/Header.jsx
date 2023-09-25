@@ -1,11 +1,14 @@
 import React from 'react'
+import './header.css'
 
-export default function Header() {
+export default function Header(props) {
   return (
     <>
-    <div className="header">
-        <h2 className='head'>Welcome</h2>
+    
+    <div className='header'>
+        <h2>{props.title}</h2>
     </div>
+    
       
     </>
   )

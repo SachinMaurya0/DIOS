@@ -6,8 +6,10 @@ function App() {
   return (
     <>
       
-      <Header/>
+      <Header title='WELCOME'/>
       <Sidebar/>
+      
+
     </>
   );
 }

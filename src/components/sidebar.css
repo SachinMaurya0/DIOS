@@ -1,0 +1,42 @@
+.sidebar{
+    
+    background-color: #F37221;
+    
+}
+.list{
+    list-style: none;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.list-items{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 5px;
+
+}
+.icon{
+    margin-right: 5px;
+}
+
+a:hover{
+    transition: 0.75s;
+    border-radius: 5px;
+    background-color: white;
+    color: #000;
+}
+
+.logout:hover{
+    color: rgb(214, 23, 23);
+    font:30px;
+}
